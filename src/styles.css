@@ -12,3 +12,4 @@
 @media(max-width:1000px){.hero{grid-template-columns:minmax(0,1fr) minmax(340px,.8fr);gap:5vw}.hero:before{padding-left:28px}}
 @media(max-width:800px){.hero{grid-template-columns:1fr;padding-left:7vw;padding-right:7vw}.hero:before{border-left:1px solid var(--gold);padding-left:22px;max-width:none}.hero h1{font-size:clamp(44px,12vw,64px)}}
 .logo img{display:block;width:152px;height:auto}.logo{gap:0}.menu span{font-size:34px;line-height:1}
+@media(max-width:800px){.dark-section .step-grid{gap:0}.dark-section .step{margin:0;padding:24px 0 28px;min-height:0;border-right:0;border-bottom:1px solid var(--line)}.dark-section .step:last-child{border-bottom:0}.dark-section .step-number{margin-bottom:16px}.dark-section .step-icon{margin-bottom:2px}.dark-section .step h3{margin:12px 0 7px}.dark-section .step p{max-width:34rem}}
