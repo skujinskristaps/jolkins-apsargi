@@ -126,3 +126,5 @@ h3,.step h3{font-size:var(--text-h3);line-height:1.25;letter-spacing:-.02em}
 }
 
 @media(max-width:800px){.contact-details a{min-height:44px;display:flex;align-items:center}.contact-details{gap:4px}footer a{display:inline-flex;min-height:44px;align-items:center}}
+
+footer small{color:#b8b7b0}
