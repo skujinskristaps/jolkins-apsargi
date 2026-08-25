@@ -124,3 +124,5 @@ h3,.step h3{font-size:var(--text-h3);line-height:1.25;letter-spacing:-.02em}
   .role-card svg{grid-column:2;width:30px;height:30px}
   .role-card strong{grid-column:1/-1}
 }
+
+@media(max-width:800px){.contact-details a{min-height:44px;display:flex;align-items:center}.contact-details{gap:4px}footer a{display:inline-flex;min-height:44px;align-items:center}}
