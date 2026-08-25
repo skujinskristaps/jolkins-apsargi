@@ -118,4 +118,10 @@ h3,.step h3{font-size:var(--text-h3);line-height:1.25;letter-spacing:-.02em}
   footer p{margin:0;line-height:1.6}
   footer div{gap:24px;margin-top:10px}
   footer small{width:100%;padding-top:20px;line-height:1.6}
+  .chain-callout h2{font-size:clamp(32px,8vw,42px);line-height:1.08}
+  .chain-callout>p{font-size:16px;line-height:1.55}
+  .role-card{display:grid;grid-template-columns:auto 1fr;align-items:center;column-gap:14px;row-gap:18px}
+  .role-card span{grid-column:1;font-size:13px}
+  .role-card svg{grid-column:2;width:30px;height:30px}
+  .role-card strong{grid-column:1/-1}
 }
