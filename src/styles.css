@@ -128,3 +128,12 @@ h3,.step h3{font-size:var(--text-h3);line-height:1.25;letter-spacing:-.02em}
 @media(max-width:800px){.contact-details a{min-height:44px;display:flex;align-items:center}.contact-details{gap:4px}footer a{display:inline-flex;min-height:44px;align-items:center}}
 
 footer small{color:#b8b7b0}
+
+/* Accessibility essentials */
+.skip-link{position:fixed;left:1rem;top:-5rem;z-index:100;padding:.75rem 1rem;background:var(--gold);color:var(--black);font-weight:700}
+.skip-link:focus{top:1rem}
+:focus{outline:2px solid var(--gold-light);outline-offset:3px}
+:focus:not(:focus-visible){outline:0}
+button,.button,.nav-cta{min-height:44px}
+html{scroll-padding-top:90px}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
