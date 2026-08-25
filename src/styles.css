@@ -46,10 +46,6 @@ main:has(.chain-callout)>section:not(.hero):not(.stats):not(.chain-callout){orde
 .chain-callout{grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:start}
 .chain-callout>p{width:100%;max-width:520px;margin:0}
 @media(max-width:800px){.section-heading,.chain-callout{display:block}.section-heading>p{margin-top:25px}.chain-callout>p{margin-top:25px}}
-.section:not(.questions) h2,.questions h2,.section-heading h2,.audience h2{font-size:clamp(32px,3.1vw,50px);white-space:nowrap}
-.section:not(.questions) h2 br,.questions h2 br,.section-heading h2 br,.audience h2 br{display:none}
-@media(max-width:800px){.section:not(.questions) h2,.questions h2,.section-heading h2,.audience h2{font-size:clamp(36px,9vw,54px);white-space:normal}}
-@media(max-width:800px){.section:not(.questions) h2 br,.questions h2 br,.section-heading h2 br,.audience h2 br{display:block}}
 
 /* Consistent typography system: expressive Space Grotesk for hierarchy,
    calm DM Sans for readable supporting copy. */
