@@ -1,0 +1,4 @@
+Contact: mailto:pasts@redrosiba.lv
+Expires: 2027-08-25T00:00:00.000Z
+Preferred-Languages: lv, en
+Canonical: https://www.redrosiba.lv/.well-known/security.txt
