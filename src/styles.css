@@ -31,10 +31,11 @@ main:has(.chain-callout)>section:not(.hero):not(.stats):not(.chain-callout){orde
 
 /* Align explanatory copy to the same upper content line as each module. */
 .section-heading{align-items:flex-start}
-.section-heading>p{margin-top:34px}
+.section-heading>p{margin-top:0}
 .chain-callout{align-items:flex-start}
-.chain-callout>p{margin-top:34px}
+.chain-callout>p{margin-top:0}
 @media(max-width:800px){.chain-callout>p{margin-top:0}}
+.audience-copy .eyebrow{color:var(--gold-light);font-family:var(--font-display);font-weight:var(--weight-semibold)}
 
 /* Consistent typography system: expressive Space Grotesk for hierarchy,
    calm DM Sans for readable supporting copy. */
