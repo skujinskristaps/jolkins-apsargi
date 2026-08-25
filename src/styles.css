@@ -36,6 +36,11 @@ main:has(.chain-callout)>section:not(.hero):not(.stats):not(.chain-callout){orde
 .chain-callout>p{margin-top:0}
 @media(max-width:800px){.chain-callout>p{margin-top:0}}
 .audience-copy .eyebrow{color:var(--gold-light);font-family:var(--font-display);font-weight:var(--weight-semibold)}
+.split{align-items:start}
+.split>.section-text{align-self:start;padding-top:0}
+.section-heading>div{align-self:start}
+.section-heading>p{align-self:start;padding-top:0}
+.audience-copy .eyebrow{font-size:var(--text-xs);line-height:1.3;letter-spacing:.18em;margin-bottom:20px}
 
 /* Consistent typography system: expressive Space Grotesk for hierarchy,
    calm DM Sans for readable supporting copy. */
