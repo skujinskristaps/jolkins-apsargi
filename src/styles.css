@@ -41,6 +41,11 @@ main:has(.chain-callout)>section:not(.hero):not(.stats):not(.chain-callout){orde
 .section-heading>div{align-self:start}
 .section-heading>p{align-self:start;padding-top:0}
 .audience-copy .eyebrow{font-size:var(--text-xs);line-height:1.3;letter-spacing:.18em;margin-bottom:20px}
+.section-heading{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:start;gap:8vw}
+.section-heading>p{width:100%;max-width:520px;margin:0}
+.chain-callout{grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:start}
+.chain-callout>p{width:100%;max-width:520px;margin:0}
+@media(max-width:800px){.section-heading,.chain-callout{display:block}.section-heading>p{margin-top:25px}.chain-callout>p{margin-top:25px}}
 
 /* Consistent typography system: expressive Space Grotesk for hierarchy,
    calm DM Sans for readable supporting copy. */
